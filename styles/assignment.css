@@ -47,6 +47,7 @@ nav .sign_container button{
     border: 1px solid #006A50;
     color: #006A50;
     border-radius: 8px;
+    transition: 0.5s;
 }
                                    /* hover effect */
 nav .sign_container button:hover{
@@ -88,9 +89,58 @@ nav .sign_container button:hover{
 }
 .banner_btn{
     margin-top: 30px;
+    transition: 0.5s;
 }
 .banner_btn:hover{
    background-color: white;
    color:#006A50;
    border:1px solid #006A50;
+}
+
+/*main area*/
+
+main{
+    width: 1280px;
+    margin-top: 150px;
+    margin: 0 auto;
+}
+  /* section-one */
+.bangladesh_container{
+    margin: 100px 0;
+
+
+}
+.bangladesh_container >h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+                  
+.bangladesh_card_box{
+    margin-top: 50px;
+    text-align: justify;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 30px;
+    /* border: 1px solid; */
+}
+.bangladesh_card_box_child{
+    width: 23%;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 16px;
+    transition: 0.4s;
+}
+                              /* hover effect */
+.bangladesh_card_box_child:hover{
+    box-shadow: 1px 2px 8px gray;
+}
+
+.bangladesh_card_box_child h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.bangladesh_card_box_child p{
+    color: #4e4c4c;
 }
