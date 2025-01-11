@@ -390,12 +390,95 @@ main{
 }
 .donate_btn{
    font-size: 18px;
+   transition: 0.4s;
 }
 .donate_btn:hover{
     background-color: white;
     color: #006A50;
     border: 1px solid #006A50;
 }
+
+
+
+/* section-container-seven begin styling */
+
+.subscribe_container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    
+}
+.subscribe_box{
+    /* border: 1px solid ; */
+    color: black;
+
+}
+.subscribe_container h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.subscribe_container p{
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+.subscribe_container .email{
+    width: 70%;
+    padding: 20px ;
+    font-size: 18px;
+    border-top-left-radius:18px ;
+    border-bottom-left-radius: 18px ;
+}
+
+.subscribe_container .submit{
+    padding: 20px 40px;
+    font-size: 18px ;
+    border-top-right-radius: 18px ;
+    border-bottom-right-radius: 18px;
+    background-color: #006A50;
+    color: white;
+}
+.subscribe_container .submit:hover{
+    opacity: 0.9;
+}
+
+
+
+/* footer */
+
+
+footer{
+    background-color: white;
+    margin-top:50px  ;
+    /* border: 1px solid ; */
+}
+.footer_box{
+    width: 1280px;
+    margin:0px auto;
+    text-align: center;
+    padding: 30px 10px;
+    
+}
+.footer_box h2{
+    font-size: 32px ;
+}
+
+.footer_image_box{
+    display: flex;
+    gap: 20px ;
+    justify-content: center;
+}
+
+
+
+
+
 
 
 
